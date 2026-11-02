@@ -38,6 +38,8 @@ async def forward_to_friend(message: types.Message):
                     sent_msg = await bot.send_audio(chat_id=target_user_id, audio=message.audio.file_id, caption=message.caption)
                 elif message.document:
                     sent_msg = await bot.send_document(chat_id=target_user_id, document=message.document.file_id, caption=message.caption)
+                elif message.sticker:
+                    sent_msg = await bot.send_sticker(chat_id=target_user_id, sticker=message.sticker.file_id)
                 else:
                     sent_msg = await bot.send_message(chat_id=target_user_id, text=message.text)
                 

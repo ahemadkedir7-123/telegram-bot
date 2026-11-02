@@ -4,8 +4,8 @@ import os
 from aiogram import Bot, Dispatcher, types
 from aiogram.filters import Command
 
-TOKEN = "9264749757:AAGfIyXpU79XHbGdFiDr_zWAJrTVx99-3kM
-" # የቦቱን ቶከን እዚህ ያስገቡ
+TOKEN = "9264749757:AAGfIyXpU79XHbGdFiDr_zWAJrTVx99-3kM"
+ # የቦቱን ቶከን እዚህ ያስገቡ
 FRIEND_CHAT_ID = 8345797413
  # የጓደኛዎን Chat ID እዚህ ያስገቡ
 

@@ -6,7 +6,7 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.filters import Command
 
 TOKEN = "9020872784:AAEqaZG8HveIWtd23Qi9tRhNynUv-Glac-A"
-FRIEND_CHAT_ID = 8608096447  # የጓደኛዎን የቻት ID እዚህ ያስገቡ
+FRIEND_CHAT_ID = 6358864784  # የጓደኛዎን የቻት ID እዚህ ያስገቡ
 
 
 bot = Bot(token=TOKEN)

@@ -5,7 +5,7 @@ from aiohttp import web
 from aiogram import Bot, Dispatcher, types
 from aiogram.filters import Command
 
-TOKEN = "9020872784:AAEqaZG8HveIWtd23Qi9tRhNynUv-Glac-A"
+TOKEN = "9020872784:AAHlZg5K53x5UwvgEDoQArWr2Y8QEkcV0nA"
 FRIEND_CHAT_ID = 6358864784  # የጓደኛዎን የቻት ID እዚህ ያስገቡ
 
 
